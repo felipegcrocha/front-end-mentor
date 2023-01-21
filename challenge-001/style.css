@@ -38,6 +38,10 @@ main {
     width: 100%;
 }
 
+.div {
+    height: 100px;
+}
+
 /* bloco central */
 
 .blococentral {
@@ -165,12 +169,16 @@ footer a {
 /* keyframes */
 
 @media only screen and (min-width: 641px) and (max-width: 768px) {
-    .card {
+    .blococentral {
         max-width: 600px;
     }
 }
 
 @media only screen and (max-width: 640px){
+    .div {
+        height: 100px;
+    }
+
     .blococentral {
         min-width: auto;
         width: 90%;
@@ -195,7 +203,7 @@ footer a {
     }
 
     .preview {
-        font-size: 1em;
+        font-size: 0.75em;
     }
 
     h1 {
